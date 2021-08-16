@@ -1,8 +1,10 @@
+import java.io.*;
 class Fib{
 
 public static void main(String args[]){
+BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
-int number=7;
+int number=Integer.parseInt(br.readLine());
 
 int arr[]=new int[number];
 
