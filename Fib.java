@@ -4,7 +4,7 @@ class Fib{
 public static void main(String args[])throws Exception{
 BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
-int number=Integer.parseInt(br.readLine());
+int number=Integer.parseInt(%JOB_PARAM_1%);
 
 int arr[]=new int[number];
 
