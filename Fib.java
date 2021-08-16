@@ -4,7 +4,7 @@ class Fib{
 public static void main(String args[])throws Exception{
 BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
-int number=Integer.parseInt(System.getProperty("param1"));
+int number=10;
 
 int arr[]=new int[number];
 
