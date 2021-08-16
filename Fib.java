@@ -1,7 +1,7 @@
 import java.io.*;
 class Fib{
 
-public static void main(String args[]){
+public static void main(String args[])throws Exception{
 BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
 int number=Integer.parseInt(br.readLine());
